@@ -1,0 +1,13 @@
+#
+# Nuts & Bolts Dataset
+
+# Looks inside yolov5 folder so we need to guide for parent folder
+train: ../../../Data/fish_track_all/train/images
+val: ../../../Data/fish_track_all/valid/images
+test: ../../../Data/fish_track_all/test/images
+
+# Number of Classes
+nc: 1
+
+# Classes
+names: ["fish"]
